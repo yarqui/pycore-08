@@ -252,7 +252,6 @@ def load_data(filename="addressbook.pkl"):
 
 
 def main():
-    # book = AddressBook()
     book = load_data()
     print("Welcome to the assistant bot!")
     while True:
